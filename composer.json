@@ -1,9 +1,9 @@
 {
   "name": "lichi/omnidesk-sdk",
   "type": "library",
-  "description": "PHP SDK for OMNIDESK",
-  "keywords": ["Lichi","lichi", "omnidesk php sdk", "omnidesk", "omnidesk api", "omnidesk sdk"],
-  "homepage": "https://github.com/IvanHunters/lichi-omnidesk-sdk",
+  "description": "PHP SDK for HUNTFLOW",
+  "keywords": ["Lichi","lichi", "huntflow php sdk", "huntflow", "huntflow api", "huntflow sdk"],
+  "homepage": "https://github.com/IvanHunters/lichi-huntflow-sdk",
   "license": "MIT",
   "authors": [
     {
@@ -21,8 +21,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Lichi\\Omnidesk\\": "src/",
-      "Lichi\\Omnidesk\\Sdk\\": "src/sdk/"
+      "Lichi\\Huntflow\\": "src/",
+      "Lichi\\Huntflow\\Sdk\\": "src/sdk/"
     }
   },
   "autoload-dev": {

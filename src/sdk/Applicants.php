@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lichi\Omnidesk\Sdk;
+namespace Lichi\Huntflow\Sdk;
 
 use GuzzleHttp\RequestOptions;
 

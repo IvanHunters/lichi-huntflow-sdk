@@ -3,11 +3,11 @@
 declare(strict_types=1);
 
 
-namespace Lichi\Omnidesk\Sdk;
+namespace Lichi\Huntflow\Sdk;
 
 
 use GuzzleHttp\RequestOptions;
-use Lichi\Omnidesk\ApiProvider;
+use Lichi\Huntflow\ApiProvider;
 
 class PaginationRequest
 {

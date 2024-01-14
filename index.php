@@ -2,7 +2,7 @@
 
 include "vendor/autoload.php";
 
-use Lichi\Omnidesk\ApiProvider;
+use Lichi\Huntflow\ApiProvider;
 use GuzzleHttp\Client;
 
 $client = new Client([

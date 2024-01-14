@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Lichi\Omnidesk;
+namespace Lichi\Huntflow;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\RequestOptions;
-use Lichi\Omnidesk\Sdk\Accounts;
-use Lichi\Omnidesk\Sdk\Applicants;
-use Lichi\Omnidesk\Sdk\Module;
-use Lichi\Omnidesk\Sdk\Statuses;
-use Lichi\Omnidesk\Sdk\Vacancies;
+use Lichi\Huntflow\Sdk\Accounts;
+use Lichi\Huntflow\Sdk\Applicants;
+use Lichi\Huntflow\Sdk\Module;
+use Lichi\Huntflow\Sdk\Statuses;
+use Lichi\Huntflow\Sdk\Vacancies;
 use RuntimeException;
 
 class ApiProvider
