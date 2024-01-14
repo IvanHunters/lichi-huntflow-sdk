@@ -1,7 +1,7 @@
 Email for cooperation: offers@lichi.su
 
-# lichi-omnidesk-sdk
+# lichi-huntflow-sdk
 **For install:**
 ```
-composer require lichi/omnidesk-sdk
+composer require lichi/huntflow-sdk
 ```
