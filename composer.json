@@ -1,5 +1,5 @@
 {
-  "name": "lichi/omnidesk-sdk",
+  "name": "lichi/huntflow-sdk",
   "type": "library",
   "description": "PHP SDK for HUNTFLOW",
   "keywords": ["Lichi","lichi", "huntflow php sdk", "huntflow", "huntflow api", "huntflow sdk"],
