@@ -11,7 +11,7 @@ $client = new Client([
     'timeout'  => 30.0
 ]);
 
-$apiProvider = new ApiProvider($client, '');
+$apiProvider = new ApiProvider($client, getenv('API_KEY'));
 
 //$accounts = $apiProvider->accounts()->get();
 $applicants = $apiProvider->applicants()->get(21543, []);
