@@ -9,7 +9,7 @@ use GuzzleHttp\RequestOptions;
 class Applicants extends Module
 {
 
-    public function get(string $company, array $filters = []): array
+    public function get(int $company, array $filters = []): array
     {
         return $this->paginationRequest->get(
             "GET",

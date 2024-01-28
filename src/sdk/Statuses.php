@@ -9,7 +9,7 @@ use GuzzleHttp\RequestOptions;
 class Statuses extends Module
 {
 
-    public function get(string $company): array
+    public function get(int $company): array
     {
         return $this->paginationRequest->get(
             "GET",
