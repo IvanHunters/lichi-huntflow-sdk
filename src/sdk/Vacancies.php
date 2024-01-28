@@ -19,6 +19,14 @@ class Vacancies extends Module
             ]
             );
     }
+    public function find(int $company, int $vacancy): array
+    {
+        return $this->paginationRequest->get(
+            "GET",
+            sprintf("/v2/accounts/%s/vacancies/%s", $company, $vacancy),
+            []
+            );
+    }
 
 
 }
