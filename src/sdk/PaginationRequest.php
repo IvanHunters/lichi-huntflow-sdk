@@ -32,6 +32,9 @@ class PaginationRequest
             $body
         );
 
+        if (!isset($response['items'])) {
+            return $response;
+        }
         if (!isset($response['total_items'])) {
             $totalCount = 0;
         } else {
