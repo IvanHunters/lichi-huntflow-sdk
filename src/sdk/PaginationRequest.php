@@ -33,7 +33,7 @@ class PaginationRequest
         );
 
         if (!isset($response['total_items'])) {
-            $totalCount = 1000000;
+            $totalCount = 0;
         } else {
             $totalCount = $response['total_items'];
             unset($response['total_items']);
