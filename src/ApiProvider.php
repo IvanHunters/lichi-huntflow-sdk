@@ -10,6 +10,7 @@ use Lichi\Huntflow\Sdk\Accounts;
 use Lichi\Huntflow\Sdk\Applicants;
 use Lichi\Huntflow\Sdk\Module;
 use Lichi\Huntflow\Sdk\Statuses;
+use Lichi\Huntflow\Sdk\Token;
 use Lichi\Huntflow\Sdk\Vacancies;
 use RuntimeException;
 
@@ -96,6 +97,10 @@ class ApiProvider
     public function vacancies(){
         $self = clone $this;
         return new Vacancies($self);
+    }
+    public function token(){
+        $self = clone $this;
+        return new Token($self);
     }
 
 }
