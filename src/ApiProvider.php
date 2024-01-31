@@ -41,11 +41,13 @@ class ApiProvider
      * @param array $params
      * @return mixed
      */
-    public function callMethod(string $typeRequest, string $method, array $params = [])
+    public function callMethod(string $typeRequest, string $method, array $params = [], bool $needAuth = true)
     {
         usleep(380000);
         try {
-            $params[RequestOptions::HEADERS]['Authorization'] = 'Bearer '. $this->token;
+            if ($needAuth) {
+                $params[RequestOptions::HEADERS]['Authorization'] = 'Bearer ' . $this->token;
+            }
             $response = $this->client->request($typeRequest, $method, $params);
         } catch (GuzzleException $exception){
             try {

@@ -18,7 +18,8 @@ class Token extends Module
                 RequestOptions::JSON => [
                     "refresh_token" => $refreshToken
                 ]
-            ]);
+            ],
+        false);
     }
 
 
