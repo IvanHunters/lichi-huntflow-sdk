@@ -30,6 +30,11 @@ class ApiProvider
         $this->token = $token;
     }
 
+    public function setToken(string $token)
+    {
+        $this->token = $token;
+    }
+
     /**
      * @param string $typeRequest
      * @param string $method
