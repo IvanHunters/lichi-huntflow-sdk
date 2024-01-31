@@ -39,6 +39,7 @@ class ApiProvider
      * @param string $typeRequest
      * @param string $method
      * @param array $params
+     * @param bool $needAuth
      * @return mixed
      */
     public function callMethod(string $typeRequest, string $method, array $params = [], bool $needAuth = true)
